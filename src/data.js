@@ -20,7 +20,7 @@ import BehanceBrandIcon from "./assets/img/brands/behance.png";
 import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
-import Project1 from "@assets/img/projects/p1.webp";
+
 import Project2 from "@assets/img/projects/p2.webp";
 import Project3 from "@assets/img/projects/p3.webp";
 import Project4 from "@assets/img/projects/p4.webp";
@@ -96,12 +96,6 @@ export const brands = [
 
 // projects
 export const projectsData = [
-  {
-    id: "1",
-    image: "./assets/img/projects/p1.webp",
-    name: "project name 1",
-    category: "UI/UX design",
-  },
   {
     id: "2",
     image: Project2,

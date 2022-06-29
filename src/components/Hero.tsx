@@ -1,5 +1,8 @@
 // import woman image
+import Image from "next/image";
+
 import WomanImg from "@assets/img/banner.webp";
+7;
 const Hero = () => {
   return (
     <section
@@ -24,7 +27,7 @@ const Hero = () => {
             </button>
           </div>
           <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-            <img src={WomanImg} alt="" />
+            <Image src={WomanImg} />
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ const Header = ({}: HeaderProps) => {
       className={classes(
         "flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300",
         {
-          "bg-teal-700 h-20": bg,
+          "bg-tertiary h-20": bg,
           "h-24": !bg,
         }
       )}
