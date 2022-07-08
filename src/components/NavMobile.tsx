@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { XIcon } from "@heroicons/react/outline";
 import { MenuAlt3Icon } from "@heroicons/react/outline";
-import { navigation } from "./../data.js";
+
 import { Link } from "react-scroll";
 import { useState } from "react";
 
@@ -62,21 +62,7 @@ const NavMobile = ({}: NavMobileProps) => {
         >
           <XIcon className="w-8 h-8" />
         </div>
-        {navigation.map((item, index) => {
-          return (
-            <li key={index} className={"mb-8"}>
-              <Link
-                smooth={true}
-                duration={500}
-                offset={-70}
-                className="text-xl cursor-pointer capitalize"
-                to={item.href}
-              >
-                {item.name}
-              </Link>
-            </li>
-          );
-        })}
+
       </motion.ul>
     </nav>
   );
