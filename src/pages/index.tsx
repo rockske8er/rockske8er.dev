@@ -10,7 +10,6 @@ const Home: NextPage = () => {
   return (
     <main className={"relative bg-white"}>
     <Swiper
-    
       spaceBetween={50}
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
