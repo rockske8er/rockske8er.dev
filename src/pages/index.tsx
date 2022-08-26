@@ -1,27 +1,12 @@
-import type { NextPage } from "next";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-
+import { Layout } from '@components/Layout'
+import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
   return (
-    <main className={"relative bg-white"}>
-    <Swiper
-      spaceBetween={50}
-      slidesPerView={3}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
-    </Swiper>
-    </main>
-  );
-};
+    <Layout>
+      <h1>rockske8er.dev</h1>
+    </Layout>
+  )
+}
 
-export default Home;
+export default Home
