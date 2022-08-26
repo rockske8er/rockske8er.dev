@@ -1,10 +1,11 @@
+import { Header } from '@components/Header'
 import { Layout } from '@components/Layout'
 import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
   return (
     <Layout>
-      <h1>rockske8er.dev</h1>
+      <Header />
     </Layout>
   )
 }
